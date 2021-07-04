@@ -13,7 +13,7 @@ int main () {
         if ( a == 50 ) 
         {
             printf("the value has been limited to here");
-            break ; 
+            continue ; 
         }
 
     } while ( a < 100 );
