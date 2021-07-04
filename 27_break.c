@@ -26,18 +26,19 @@ int main () {
 
    c = a % b ;
 //    printf ("div value is %d",c);
-do {
-    if ( c != 0 )
+do { 
+         if (c == 0 )
+        {
+            printf ("true");
+            break;
+        }
+    else if ( c != 0 )
         {
             printf ("enter another value \n");
         }
-    else if (c == 0 )
-        {
-            printf ("true");
-        }
+
             return 0 ;
     }while (c >= 0);
-   
 }
     
     

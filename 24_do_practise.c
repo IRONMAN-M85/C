@@ -1,9 +1,8 @@
 #include<stdio.h>
 int main () {
-     int a =1 ;
+     int a = 1 ;
 
      printf("Natural number are \n");
-
      
      do {
          printf("%d\n",a);

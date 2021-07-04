@@ -15,10 +15,10 @@ int main () {
     printf ("%d\n",a); //2
 
     a++;
-    printf ("%d\n",a);//3
+    printf ("%d\n",a); //3
 
     a++;
-    printf ("%d\n",a);//4
+    printf ("%d\n",a); //4
 
     printf ("%d\n",a++);//4 this will print 4 because a is printed then it is increased
 

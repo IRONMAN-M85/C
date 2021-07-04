@@ -2,7 +2,7 @@
 int main () {
     int a = 1;
 
-    printf (" %d \n",a); //here the value of a will be printed now ,
+    printf ("the initial value of a is  %d \n",a); //here the value of a will be printed now ,
 
     a+=10 ; 
     printf (" value after increment is to  %d\n ",a);
