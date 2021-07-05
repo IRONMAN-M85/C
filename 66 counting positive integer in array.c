@@ -53,10 +53,8 @@ int main()
     n = 6 ; //Like this 
     printArray(arr, 6);
   
-    printf("Count of Positive elements = %d\n",
-           countPositiveNumbers(arr, n));
-    printf("Count of Negative elements = %d\n",
-           countNegativeNumbers(arr, n));
+    printf("Count of Positive elements = %d\n",countPositiveNumbers(arr, n));
+    printf("Count of Negative elements = %d\n",countNegativeNumbers(arr, n));
   
     return 0;
 }

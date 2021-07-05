@@ -7,7 +7,7 @@ int main ()
     int multiply [10] ;
     int n ;
     
-        printf("Enter the number : \n");
+        printf("Enter the number : ");
         scanf ("%d",&n);
 
             for (int i = 0; i < 10; i++)    
