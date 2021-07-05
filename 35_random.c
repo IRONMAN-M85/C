@@ -15,7 +15,7 @@ int main () {
 
     int number ;
 
-    srand (time(0));  ///instruction  to generate numbers randomly frequently
+    srand (time(NULL));  ///instruction  to generate numbers randomly frequently
     number = rand()%10 + 1; //rand number generator
 
 

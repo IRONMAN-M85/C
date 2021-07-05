@@ -1,6 +1,4 @@
-//very important formula for factorial at last
-
-
+very important formula for factorial at last
 
 #include "stdio.h"
 int factorial (int x);
@@ -23,3 +21,4 @@ int factorial (int x)
     return x * factorial (x-1);
   }
 }
+

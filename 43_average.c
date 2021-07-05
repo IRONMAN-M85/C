@@ -1,14 +1,5 @@
-/**
- * @Author: ironman
- * @Date:   2021-05-28T05:34:32-04:00
- * @Last modified by:   ironman
- * @Last modified time: 2021-05-28T05:54:20-04:00
- */
-
-
-
 // finding the average of 3 Numbers ;;
-#include "stdio.h"
+#include <stdio.h>
 float  average (int a , int b , int c); //function protocol
 
 int main(int argc, char const *argv[])
