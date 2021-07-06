@@ -1,6 +1,6 @@
 // create an array of size 3 x 10 cointaining  multiplication table of the 3 number
 #include <stdio.h>
-#include <stdlib.h>
+// #include <stdlib.h>
 void printtable(int *multable, int num, int n)
 {
     printf("multiplication table of %d\n ", num);
