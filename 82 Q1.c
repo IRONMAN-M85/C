@@ -4,7 +4,7 @@
 void slice(char *st, int initial, int final)
 {
     int i = 0;
-    while ((i+initial) < final)
+    while ((i+initial) <= final)
     {
         st[i] = st[i + initial]; //this work such value like from s[0] get shift to s[1]
         i++;

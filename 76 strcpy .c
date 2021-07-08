@@ -3,12 +3,12 @@
 int main ()
 {
 char *source = "sujal"; 
-char jasmacopyhunxa [6];
+char target [6];
 
-int a = strcpy(jasmacopyhunxa , source);
-char b = strcpy(jasmacopyhunxa , source);
+int a = strcpy( target , source);
+char b = strcpy( target , source);
 
-printf("\nsee we finally copied source wala string in jasmacopyhunxa : %s",a);
-printf("\nsee we finally copied source wala string in jasmacopyhunxa : %s", strcpy(jasmacopyhunxa , source));
+printf("\nsee we finally copied source wala string in target : %s",a);
+printf("\nsee we finally copied source wala string in target : %s", strcpy(target , source));
 return 0;
 }
